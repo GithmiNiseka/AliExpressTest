@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<test parallel="methods" thread-count="3" verbose="3" preserve-order="true" name="D:/QA_Assignment">
+
+        <classes>
+            <class name="page_object_model.tests.AliExpressHomeTest">
+                <methods>
+                    <include name="searchAccessories"/>
+                    <include name="searchStationery"/>
+                    <include name="SelectStore"/>
+                    <include name="HomeCompliance"/>
+                </methods>
+            </class>
+        </classes>
+</test>
+</suite>
+
